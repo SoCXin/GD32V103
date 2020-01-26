@@ -1,5 +1,7 @@
 ﻿# [GD32V](https://github.com/sochub/GD32V) 
-[![sites](SoC/SoC.png)](http://www.qitas.cn)
+
+[![sites](http://182.61.61.133/link/resources/docs.png)](https://stop.stops.top) 
+
 #### [Vendor](https://github.com/sochub/Vendor) ：[GigaDevice](https://github.com/sochub/GigaDevice)
 #### [RISC-V](https://github.com/sochub/RISC-V) ：Bumblebee 
 #### [Level](https://github.com/sochub/Level)：153DMIPS/108MHz
@@ -17,7 +19,7 @@
 Bumblebee内核能够以二级流水线的代价，达到传统架构三级流水线的性能和频率，使得GD32VF103系列MCU在最高主频下的工作性能可达153 DMIPS，CoreMark®测试也取得了360分，相比GD32 Cortex®-M3内核产品性能提升15%，动态功耗降低了50%，待机功耗更降低了25%。
 
 
-[![sites](SoC/GD32V.jpg)](http://www.qitas.cn)
+[![sites](docs/GD32V.jpg)](http://www.qitas.cn)
 
 ### 关键参数：
 
