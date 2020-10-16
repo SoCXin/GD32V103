@@ -1,16 +1,14 @@
-﻿# [GD32V103](https://github.com/sochub/GD32V103) 
+﻿# [GD32V103](https://github.com/SoCXin/GD32V103)
 
-[![sites](http://182.61.61.133/link/resources/docs.png)](https://stop.stops.top) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/sochub/Vendor) ：[GigaDevice](https://github.com/sochub/GigaDevice)
-#### [RISC-V](https://github.com/sochub/RISC-V) ：Bumblebee 
-#### [Level](https://github.com/sochub/Level)：153DMIPS/108MHz
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[GigaDevice](https://github.com/SoCXin/GigaDevice)
+#### [Core](https://github.com/SoCXin/RISC-V)：[Nuclei Bumblebee](https://github.com/SoCXin/RISC-V)
+#### [Level](https://github.com/SoCXin/Level)：108MHz
 
-### [GD32V103描述](https://github.com/sochub/GD32V103/wiki) 
+### [GD32V103描述](https://github.com/SoCXin/GD32V103/wiki)
 
-2019年8月22日，兆易创新[GigaDevice](https://github.com/sochub/GigaDevice) 率先将开源指令集架构RISC-V引入通用微控制器领域。
-
-[GD32V103](https://github.com/sochub/GD32V103) 基于RISC-V的Bumblebee内核，支持RV32IMAC指令子集的组合，处理器频率108MHz，16-128KB的片上闪存和6-32KB的SRAM。在最高主频下的工作性能可达153 DMIPS，CoreMark®测试也取得了360分的优异表现，相比GD32 Cortex®-M3内核产品性能提升15%的同时，动态功耗降低了50%，待机功耗更降低了25%。
+[GD32V103](https://github.com/SoCXin/GD32V103) 基于RISC-V的Bumblebee内核，支持RV32IMAC指令子集的组合，处理器频率108MHz，16-128KB的片上闪存和6-32KB的SRAM。在最高主频下的工作性能可达153 DMIPS，CoreMark®测试也取得了360分的优异表现，相比GD32 Cortex®-M3内核产品性能提升15%的同时，动态功耗降低了50%，待机功耗更降低了25%。
 
 支持32位宽的标准AHB-Lite系统总线接口，主流支持标准JTAG接口和RISC-V调试标准。
 
@@ -18,23 +16,19 @@
 
 Bumblebee内核能够以二级流水线的代价，达到传统架构三级流水线的性能和频率，使得GD32VF103系列MCU在最高主频下的工作性能可达153 DMIPS，CoreMark®测试也取得了360分，相比GD32 Cortex®-M3内核产品性能提升15%，动态功耗降低了50%，待机功耗更降低了25%。
 
+### 关键参数
 
-[![sites](docs/GD32V.jpg)](http://www.qitas.cn)
-
-### 关键参数：
-
-* 108MHz 32位RISC-V处理器
 * 12bit高精度ADC + DAC，ADC采样率高达2.6M SPS，多达16个可复用通道，支持16-bit硬件过采样滤波功能和分辨率可配置功能。
 * USBFS/CAN/I2S/I2C/SPI，2.6V-3.6V供电，I/O口可承受5V电平
 
-### [资源收录](https://github.com/sochub/GD32V103)
+### [资源收录](https://github.com/SoCXin/GD32V103)
 
-* [文档](docs/) 
-* [资源](src/) 
-* [工程](project/) 
+* [文档](docs/)
+* [资源](src/)
+* [工程](project/)
 
-### [选型建议](https://github.com/sochub/GD32V)
+### [选型建议](https://github.com/SoCXin/GD32V)
 
-[GD32V103](https://github.com/sochub/GD32V103) 系列对标的是[STM32F103](https://github.com/sochub/STM32F103),在成本和外设相似的情况下具有更高的性能。 
+[GD32V103](https://github.com/SoCXin/GD32V103) 系列对标的是[STM32F103](https://github.com/SoCXin/STM32F103),在成本和外设相似的情况下具有更高的性能。
 
-###  [SoC资源平台](http://www.qitas.cn)   
+###  [SoC芯平台](http://www.SoC.Xin)
