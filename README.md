@@ -2,8 +2,8 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-* [GigaDevice](https://www.gigadevice.com/zh-hans)：[RISC-V Bumblebee](https://github.com/SoCXin/RISC-V)
-* [L3R3](https://github.com/SoCXin/Level)：108 MHz (153DMIPS,360CoreMark)
+* [GigaDevice](https://www.gigadevice.com/zh-hans)：[RV32IMAC](https://github.com/SoCXin/RISC-V)
+* [L3R3](https://github.com/SoCXin/Level)：108 MHz (153DMIPS, 360CoreMark)
 
 ## [简介](https://github.com/SoCXin/GD32V103/wiki)
 
@@ -11,17 +11,18 @@
 
 Bumblebee内核能够以二级流水线的代价，达到传统架构三级流水线的性能和频率，相比GD32 Cortex®-M3内核产品性能提升15%，动态功耗降低了50%，待机功耗更降低了25%。
 
-[![sites](docs/GD32V103.png)](https://www.gigadevice.com/zh-hans/microcontroller/GD32V103k8q7/)
+[![sites](docs/GD32V103.png)](https://www.gigadevice.com/zh-hans/products/microcontrollers/gd32/risc-v/)
 
 ### 关键特性
 
-* 16CH 12bit ADC (2.6MSPS)，支持16-bit硬件过采样滤波功能和分辨率可配置功能
+* 2x16CH 12bit ADC (1MSPS)，支持16-bit硬件过采样滤波功能和分辨率可配置功能
 
 #### 封装规格
 
-* QFN28 (4 x 4 x 0.85mm)
-* QFN32 (5 x 5 x 0.85mm)
-
+* QFN36
+* LQFP48 (7x7mm)
+* LQFP64 (10x10mm)
+* LQFP100 (14x14mm)
 
 ### [选型建议](https://github.com/SoCXin)
 

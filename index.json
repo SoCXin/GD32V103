@@ -1,21 +1,21 @@
 {
     "type":"MCU",
     "name":"GD32V103",
-    "Freq":"72MHz",
-    "Core":"Cortex-M23",
+    "Freq":"108MHz",
+    "Core":"RISC-V",
     "title": "GigaDevice GD32V103 MCU",
-    "description":"GigaDevice Cortex-M23 MCU",
+    "description":"GigaDevice RISC-V MCU",
     "manufacturer": {
         "vendor":"gigadevice",
-        "homepage":"https://www.gigadevice.com/zh-hans/products/microcontrollers/gd32/arm-cortex-m4/?fwp_processor_type=cortex-m4&fwp_microcontrollers_product_series=GD32V103"
+        "homepage":"https://www.gigadevice.com/zh-hans/products/microcontrollers/gd32/risc-v/"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SoCXin/GD32V103.git"
     },
     "version":"1.0.0",
-    "series":["GD32V103KC","GD32V103JC","GD32V103KE","GD32V103PE"],
-    "package":["UFBGA100","LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
+    "series":["GD32V103C","GD32V103R","GD32V103T","GD32V103V"],
+    "package":["LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
     "peripheral": ["ADC","UART","I2C","SPI","PWM"],
     "keywords": [
         "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
